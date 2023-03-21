@@ -1,18 +1,15 @@
 #include <iostream>
 #include <fstream>
 #include <string>
+#include "Main.h"
 
 using namespace std;
 // Declaring functions
-bool IsLoggedIn();
-int FalseLogin();
-int CorrectLogin();
-void RegisterUser();
-
-
-
-
 string UserName, Password, UN, PW;
+
+
+
+
 
 bool IsLoggedIn()
 {
